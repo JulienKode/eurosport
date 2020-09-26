@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "./config/eslint/index.js"
+    //"eslint:recommended"
+    //"plugin:@typescript-eslint/eslint-recommended",
+    //"plugin:@typescript-eslint/recommended"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "useStore": {
+    "prefix": "useStore",
+    "body": [
+      "import { useStore } from \"@store/index\"",
+      "const [ {${1:reducer}}, dispatch ]:any = useStore()"
+    ],
+    "description": "useStore"
+  },
+  "interface": {
+    "prefix": "interface",
+    "body": [
+      "// : React.FC<Props>",
+      "interface Props{",
+      "  ${1:example}:string",
+      "}"
+    ],
+    "description": "interface"
+  }
+}

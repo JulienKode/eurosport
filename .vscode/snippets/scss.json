@@ -1,0 +1,29 @@
+{
+  "import variables": {
+    "prefix": "impvar",
+    "body": [
+      "@import '~@assets/styles/variables';"
+    ],
+    "description": "import variables"
+  },
+  "fontbold": {
+    "prefix": "fbold",
+    "body": [
+      "font-family: \\$font-bold;"
+    ],
+    "description": "fontbold"
+  },
+  "media queries": {
+    "prefix": "mq",
+    "body": [
+      "@media (min-width: \\$screen-md) {",
+      "  // tablet",
+      "}",
+      "",
+      "@media (min-width: \\$screen-lg) {",
+      "  // desktop",
+      "}"
+    ],
+    "description": "media queries"
+  }
+}
