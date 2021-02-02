@@ -9,18 +9,19 @@ const App = () => {
     status, data: headToHead, error,
   }:any = useHeadToHead()
 
-  console.log({ headToHead })
+  // console.log(JSON.stringify(headToHead))
 
   if (status === 'loading') {
-    return 'Chargement...'
+    return <div className={ cn(styles.App) }>Chargement...</div>
   }
 
   if (status === 'error') {
-    return <div>{error.message}</div>
+    return <div className={ cn(styles.App) }>{error.message}</div>
   }
 
   return (
     <div className={ cn(styles.App) }>
+      <h1>Finale</h1>
       <MatchBox headToHead={ headToHead } />
     </div>
   )

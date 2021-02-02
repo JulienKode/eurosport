@@ -1,0 +1,10 @@
+@import '~@assets/styles/variables';
+
+.WinsLosses {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border: 2px solid #fff;
+  margin-top: 10px;
+}

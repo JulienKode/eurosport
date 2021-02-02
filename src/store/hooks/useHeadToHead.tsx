@@ -24,6 +24,9 @@ export const useHeadToHead = () => {
               rank
               points
               age
+              height
+              weight
+              last
             }
           }
         }
